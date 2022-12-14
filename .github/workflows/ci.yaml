@@ -1,1 +1,13 @@
-
+on:
+  pull request:
+    types: [opened, reopened]
+    branches:
+      - master
+on:
+  push:
+    branches:
+      - main
+on:
+  release:
+    types: [publish]
+      
